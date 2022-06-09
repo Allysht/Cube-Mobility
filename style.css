@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+body {
+    background-color: #101010;
+    height: 200vh;
+}
+
+.coordonates {
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+}
+
+#y {
+    color: red;
+    margin-left: 10px;
+}
+
+#x {
+    color: green;
+}
+
+.object:hover {
+    border: 2px solid #00bfe0d5;
+    border-radius: 3px;
+}
+
